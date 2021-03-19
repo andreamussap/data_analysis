@@ -29,8 +29,6 @@ This was the first time I've used Jupyter notebook, and I've found it quite stra
 
 The original `Absenteeism at work.csv` dataset is available from the [UCI Machine Learning Repository, Absenteeism at work Data Set](https://archive.ics.uci.edu/ml/datasets/Absenteeism+at+work). My course, however, has provided the dataset with some modifications, which were fit for the lessons.
 
-*The dataset provided, Absenteeism_new_data.csv, is available in this project.*
-
 ## Activities
 
 The main activities in this project are the exploratory data analysis (EDA) and the actual transformation of the dataset.
@@ -52,9 +50,9 @@ I've performed transformations, such as:
 * Rename columns
 * Separate the data into categories
 
-## Variable 'Reason for absence'
+## Variable Reason for Absence
 
-The transformation of `Reason for absence` variable was an interesting task because we've learnt how to work with [dummy variables](https://www.jigsawacademy.com/blogs/data-science/dummy-variable-trap/). We've looked at the list of reasons for absence with a qualitative analysis focus, and we've grouped the 28 reasons in four classes.
+The transformation of variable `Reason for Absence` was an interesting task because we've learnt how to work with [dummy variables](https://www.jigsawacademy.com/blogs/data-science/dummy-variable-trap/). We've looked at the list of reasons for absence with a qualitative analysis focus, and we've grouped the 28 reasons in four classes.
 
 * Group 1 - reasons 1-14. They're all related to various diseases.
 * Group 2 - reasons 15-17. Reasons related to to pregnancy and giving birth.

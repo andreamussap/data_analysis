@@ -12,13 +12,8 @@ I'm treating each folder in this repository as a project.
 
 The following lists the projects in this repository:
 
-## Dataset transformation using Python's library `pandas`
-
-A Jupyter notebook where I use Python's library `pandas` to apply transformations to a dataset. ([Link](/UdemyBIDA/README_BIDA.md)).
-
-## Work in progress
-
-placeholder
+* Dataset transformation using Python's library `pandas`. ([Link](/UdemyBIDA/README_BIDA.md))
+* Work in progress.
 
 ## My learning path
 

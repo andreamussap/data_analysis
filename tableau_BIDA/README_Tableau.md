@@ -44,3 +44,5 @@ You can hover over every dot and see the age and the average probability value i
 This is the directly link to the graphic in my Tableau Public profile -
 
 <https://public.tableau.com/profile/andrea.mussap#!/vizhome/AbsenteeismFromWork/AgeVsProbability>
+
+![test](/images/Data_learningpathH1000_202103)

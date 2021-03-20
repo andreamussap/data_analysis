@@ -35,9 +35,9 @@ The graph shows multiple observations for every age (26, 28, 30, and so on) for 
 
 Most of the individuals in this dataset were 40 years old or younger.
 
-You can hover over every dot and see the age and the average probability value it corresponds to. For example, the chance of an employee, who is 31-years-old to be absent from work excessively, for more than three hours, is not too hight, it's 29%. However, this probability is way higher, 51%, for employees who are 28-years-old.
+You can hover over every dot and see the age and the average probability value it corresponds to. For example, the chance of an employee, who is 31-years-old to be absent from work excessively, for more than three hours, is not too hight, it's `29%`. However, this probability is way higher, `51%`, for employees who are 28-years-old.
 
-![Age Vs Probability](../images/AgeVsAvgProb.png)
+![Age Vs Probability](/images/AgeVsAvgProb.png)
 
 ### Link to Age Vs Probability graphic
 

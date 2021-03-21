@@ -35,13 +35,19 @@ The graph shows multiple observations for every age (26, 28, 30, and so on) for 
 
 Most of the individuals in this dataset were 40 years old or younger.
 
-You can hover over every dot and see the age and the average probability value it corresponds to. For example, the chance of an employee, who is 31-years-old to be absent from work excessively, for more than three hours, is not too hight, it's `29%`. However, this probability is way higher, `51%`, for employees who are 28-years-old.
+The age group with the highest and lowest chance to be excessively absent from work are the **50** age group (`76%`) and the **48** age group (`7%`) respectively.
 
-![Age Vs Probability](/images/AgeVsAvgProb.png)
+It doesn't seem that there is a correlation between age and absence from work. For example:
+
+* The **28** age group is the youngest group, and it shows a `51%` probability of being excessively absent from work, whereas the second youngest group, **30**, has only `28%` chance of being excessively absent from work.
+* While the probability of the oldest group, **58** age group, to be excessively absent from work is `68%`, the second oldest group, **53**, shows only a `10%` chance of being excessively absent from work.
+
+You can hover-over every dot and see the age and the average probability value it corresponds to. For example, the chance of an employee, who is 31-years-old, to be absent from work excessively is not too hight, it's `29%`.
+
+![Age Vs Probability](/images/Data_learningpathH1000_202103.png)
 
 ### Link to Age Vs Probability graphic
 
 This is the directly link to the graphic in my Tableau Public profile -
 
 <https://public.tableau.com/profile/andrea.mussap#!/vizhome/AbsenteeismFromWork/AgeVsProbability>
-

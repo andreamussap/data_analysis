@@ -46,7 +46,7 @@ You can hover-over every dot in the graphic and see the age and the average prob
 
 ![Age Vs Probability](/images/ageprobability.jpg)
 
-![Age Vs Probability](/images/banner_disi.unitn.it.jpg)
+![Age Vs Probability](/images/test.png)
 
 ### Link to Age Vs Probability graphic
 

@@ -18,7 +18,7 @@ I've embedded links to Tableau documentation throughout the text as a reference 
 
 ## Scatter Plot Age Vs Probability
 
-Created a [Scatter Plot](https://help.tableau.com/current/pro/desktop/en-us/buildexamples_scatter.htm) to visualize the average probability that an individual of a certain age might be excessively absent from work
+Create a [Scatter Plot](https://help.tableau.com/current/pro/desktop/en-us/buildexamples_scatter.htm) to visualize the average probability that an individual of a certain age might be excessively absent from work.
 
 ### Steps for Age Vs Probability
 
@@ -31,20 +31,20 @@ Created a [Scatter Plot](https://help.tableau.com/current/pro/desktop/en-us/buil
 
 ### Analysis for Age Vs Probability
 
-The graph shows multiple observations for every age (26, 28, 30, and so on) for which we have data.
+The graph shows multiple observations for every age (26, 28, 30 years old, and so on) for which we have data.
 
 Most of the individuals in this dataset were 40 years old or younger.
 
-The age group with the highest and lowest chance to be excessively absent from work are the **50** age group (`76%`) and the **48** age group (`7%`) respectively.
+The age group with the highest and lowest chance to be excessively absent from work are the **50** age group (`76%`) and the **48** age group (`7%`), respectively.
 
 It doesn't seem that there is a correlation between age and absence from work. For example:
 
 * The **28** age group is the youngest group, and it shows a `51%` probability of being excessively absent from work, whereas the second youngest group, **30**, has only `28%` chance of being excessively absent from work.
 * While the probability of the oldest group, **58** age group, to be excessively absent from work is `68%`, the second oldest group, **53**, shows only a `10%` chance of being excessively absent from work.
 
-You can hover-over every dot and see the age and the average probability value it corresponds to. For example, the chance of an employee, who is 31-years-old, to be absent from work excessively is not too hight, it's `29%`.
+You can hover-over every dot in the graphic and see the age and the average probability value it corresponds to. For example, the chance of a 31-years-old employee to be absent from work excessively is not too hight, it's `29%`.
 
-![Age Vs Probability](/images/Data_learningpathH1000_202103.png)
+![Age Vs Probability](/images/ageprobability.png)
 
 ### Link to Age Vs Probability graphic
 

@@ -44,7 +44,9 @@ It doesn't seem that there is a correlation between age and absence from work. F
 
 You can hover-over every dot in the graphic and see the age and the average probability value it corresponds to. For example, the chance of a 31-years-old employee to be absent from work excessively is not too hight, it's `29%`.
 
-![Age Vs Probability](/imagestableau/ageprobability.png)
+![Age Vs Probability](../images/ageprobability.png)
+
+![Learning path](/images/Data_learningpathH1000_202103.png)
 
 ### Link to Age Vs Probability graphic
 

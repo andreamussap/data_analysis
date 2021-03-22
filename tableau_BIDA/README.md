@@ -50,9 +50,7 @@ You can hover-over every dot in the graphic and see the age and the average prob
 
 ### Link to Age vs Probability graphic
 
-This is the directly link to the graphic in my Tableau Public profile -
-
-<https://public.tableau.com/profile/andrea.mussap#!/vizhome/AbsenteeismFromWork/AgevsProbability>
+This is the [directly link to the graphic in my Tableau Public profile](https://tabsoft.co/2OVxq6r).
 
 ## Reasons vs Probability
 
@@ -94,6 +92,4 @@ The reasoning for **Reason 4** is equivalent: since this is the group of light r
 
 ### Link to Reasons vs Probability
 
-This is the directly link to the graphic in my Tableau Public profile -
-
-<https://public.tableau.com/profile/andrea.mussap#!/vizhome/AbsenteeismFromWork/AgevsProbability>
+This is the [directly link to the graphic in my Tableau Public profile](https://tabsoft.co/2OVxq6r).

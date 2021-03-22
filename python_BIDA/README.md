@@ -1,16 +1,14 @@
-# Udemy course - Data Transformation
+# Data Transformation
 
-I've finished the [The Business Intelligence Analyst Course](https://www.udemy.com/course/the-business-intelligence-analyst-course-2018/), and I've created this project to consolidate part of my learnings.
+I've finished the [The Business Intelligence Analyst Course](https://www.udemy.com/course/the-business-intelligence-analyst-course-2018/), and I've created this project to consolidate my learnings.
 
 ## Objective
 
-The main goal of this project is to use my learnings in Python Data Analysis Library, [pandas](https://pandas.pydata.org/), to create an end-to-end script, which can be used to apply transformations to a dataset.
+The main goal of this project is to use my learnings in [pandas](https://pandas.pydata.org/), a Python Data Analysis library, to create an end-to-end script, which can be used to apply transformations to a dataset.
 
 ## Out of Scope
 
 This is *not* a Data Science project, this is a Data Engineering project instead.
-
-For more information, see the [Objective](#objective) section.
 
 ## Tools
 
@@ -23,7 +21,7 @@ I've used the following tooling in this project:
 
 ### Jupyter notebook
 
-This was the first time I've used Jupyter notebook, and I've found it quite straightforward. Specially when you know Markdown already, you can write markup tags along with your `code` to describe your work more beautifully.
+This was the first time I've used Jupyter notebook, and I've found it quite straightforward. Specially when you know Markdown already you can write markup tags along with your `code` to describe your work more beautifully.
 
 ## Dataset
 
@@ -33,13 +31,11 @@ The original `Absenteeism at work.csv` dataset is available from the [UCI Machin
 
 The main activities in this project are the exploratory data analysis (EDA) and the actual transformation of the dataset.
 
-### Exploratory Data Analysis (EDA)
+### 1. Exploratory Data Analysis (EDA)
 
 I've started with an EDA of the data to try to identify obvious errors, missing values, outliers, find relations among the variables, and try to come up with some earlier assumptions.
 
-I've used a number of functions and methods, even when they weren't exactly necessary for this type of project, but since this is an academic project I wanted to give them a try for the purpose of my learning.
-
-### Data Transformation
+### 2. Data Transformation
 
 I've performed transformations, such as:
 
@@ -52,12 +48,12 @@ I've performed transformations, such as:
 
 ## Variable Reason for Absence
 
-The transformation of variable `Reason for Absence` was an interesting task because we've learnt how to work with [dummy variables](https://www.jigsawacademy.com/blogs/data-science/dummy-variable-trap/). We've looked at the list of reasons for absence with a qualitative analysis focus, and we've grouped the 28 reasons in four classes.
+The transformation of variable `Reason for Absence` was an interesting task because we've learnt how to work with [dummy variables](https://www.jigsawacademy.com/blogs/data-science/dummy-variable-trap/). We looked at the list of reasons for absence with a qualitative analysis focus, and we've grouped the 28 reasons in four classes.
 
-* Group 1 - reasons 1-14. They're all related to various diseases.
+* Group 1 - reasons 1-14. They're all related to various serious diseases.
 * Group 2 - reasons 15-17. Reasons related to to pregnancy and giving birth.
 * Group 3 - reasons 18-21. About poisoning or other reasons not  elsewhere categorized.
-* Group 4 - reasons 22 to the last. Categorized as light reasons.
+* Group 4 - reasons 22 to the end. Categorized as light reasons.
 
 We did this because the values in `Reason for absence` represent categories, but in further lessons, we will make a quantitative analysis with this column. So, we needed to add a numerical meaning to this variable.
 
@@ -67,7 +63,7 @@ Then, from the `reason_columns` df, we created the four classes, or groups. And 
 
 ### Multicollinearity
 
-When we created the `reason_columns` data frame with the dummy variables, we' had to used the `drop_first` panda's option to avoid multicollinearity.
+When we created the `reason_columns` data frame with the dummy variables we've used the `drop_first` panda's option to avoid multicollinearity.
 
 Although multicollinearity is out of the scope of the course, I did some research on my own and here my understanding about it:
 

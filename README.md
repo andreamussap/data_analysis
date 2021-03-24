@@ -13,7 +13,7 @@ I'm treating each folder in this repository as a project.
 The following lists the projects in this repository:
 
 * Dataset transformation using Python's library `pandas`. ([Link](/python_BIDA/README.md))
-* Work in progress.
+* Visualization and analysis using Tableau. ([Link](/tableau_BIDA/README.md))
 
 ## My learning path
 

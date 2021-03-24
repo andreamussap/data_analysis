@@ -17,4 +17,4 @@ The following lists the projects in this repository:
 
 ## My learning path
 
-![Learning path](/images/Data_Analysis_mypath.png)
+![Learning path](/images/Data_Analysis_mypathH1000_202103.png)

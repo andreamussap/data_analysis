@@ -22,14 +22,13 @@ I've embedded links to Tableau documentation throughout the text as a reference 
 
 Create a [Scatter Plot](https://help.tableau.com/current/pro/desktop/en-us/buildexamples_scatter.htm) to visualize the average probability that an individual of a certain age might be excessively absent from work.
 
-### Steps for Age vs Probability
-
 1. Import the dataset in Tableau.
 2. Open **Sheet1** and rename it to **Age vs Probability**.
 3. Add `Age` to the **View**, and change it from an aggregated measure to [Dimension](https://help.tableau.com/current/pro/desktop/en-us/datafields_typesandroles.htm), so we can see the different groups of ages for which we have data.
 4. From the [Marks card](https://help.tableau.com/current/pro/desktop/en-gb/buildmanual_shelves.htm#marks-card), change the mark type to **Shape** to show the graphic as a scatter plot.
 5. Add `Probability` to the **View**, and change its measure from **Sum** to **Average**.
-6. **Format** the `Avg.Probability` axis to show the results as percentages, and **Edit** its range to `0 - 1`.
+6. Right-click the vertical axis, `Avg.Probability`, select **Format > Scale > Numbers** and select **Percentages** with `0` decimal places.
+7. Right-click the vertical axis again, select **Edit > Range > Fixed**, and make the range to `0 - 1`.
 
 ### Analysis for Age vs Probability
 
@@ -48,15 +47,11 @@ You can hover-over every dot in the graphic and see the age and the average prob
 
 ![Age vs Probability](/tableau_BIDA/images/ageprobability.png)
 
-### Link to Age vs Probability graphic
-
-This is the [directly link to the graphic in my Tableau Public profile](https://tabsoft.co/2OVxq6r).
+You can see the interactive graphic in [my Tableau Public profile](https://tabsoft.co/2OVxq6r).
 
 ## Reasons vs Probability
 
 In this exercise we want to analyse if the reasons for absence (variables `reason_1`, `reason_2`, `reason_3`, `reason_4`) can be used to predict whether an individual will be excessively absent from work.
-
-### Steps for Reasons vs Probability
 
 1. Open a new **Sheet** and rename it to **Reasons vs Probability**.
 2. Change all measures to dimensions at once. Right-click all variables in the **Measure** section, and select **Convert to dimension**. After that, the fields were all moved to the **Dimensions** section.
@@ -90,6 +85,39 @@ We can see that **Reason 1** represents very serious diseases (for example, ment
 
 The reasoning for **Reason 4** is equivalent: since this is the group of light reasons for absence (for example, physiotherapy, dental consultation), it's expect that people in this group won't be absent for long periods. Therefore, it seems that the model correctly predicted that the probability of individuals in this group to be excessively absent is mostly lower than `50%`.
 
-### Link to Reasons vs Probability
+You can see the interactive graphic in [my Tableau Public profile](https://tabsoft.co/2OVxq6r).
 
-This is the [directly link to the graphic in my Tableau Public profile](https://tabsoft.co/2OVxq6r).
+## Transportation Expense and Children
+
+In this exercise We would like to see the probability that a person will be excessively absent from work in relation to the transportation expense they must cover each month, as well as to the number of children they have.
+
+1. Open a new **Sheet** and rename it to **Transportation Expense and Children**.
+2. Drag `Probability` to **Rows**, and change its content to **Continuous** values.
+3. Select **Shape** from the **Marks** dropdown list, so we can see a scatter plot.
+4. Format its numbers to **Percentage** and make its **Range** to `0 - 1`.
+5. Drag `Transportation` to **Columns**, and change its content to **Continuous** values.
+
+    At this point, we can infer from the graphic what seems to be a [positive correlation](https://bit.ly/3vRyUPO) between transportation expense and the time that a person is excessively absent from work. We also can see that most of the individuals expend less than USD 240 in transportation.
+
+    ![Transportation Expense](/tableau_BIDA/images/Transp_prob.png)
+6. Drag `Children` to **Size** in the **Marks cards**.
+    The filter **Children** is shown at the right, and the size of the circles in the graphic change accordingly with the number of children.
+7. Drag `Children` to **Color** in the **Marks cards**.
+
+### Qualitative analysis for Transportation Expense and Children
+
+During the steps to build the viz, we've noticed a possible positive correlation between `Transportation expense` and the time that a person is excessively absent from work. After that, we've added the `Children` filter so we can combine the two features to draw out some more insights.
+
+![Transportation Expense and Children](/tableau_BIDA/images/TranspChild_probab.png)
+
+If we filter `Children` by **0**, meaning individuals with no children, we can see that they don't exhibit a high probability of being excessively absent. Moreover, aside from the data point `Expense: 268`, all the other have low transportation expense.
+
+Changing now to individuals with **3** children, the graphic shows just one data point. This doesn't seem representative and relevant for the analysis, so we can exclude it from the visualization.
+
+Next, let's check just individuals with **1** child. The graphic shows that most of the data is clustered around the average transportation spending, between $220 and $240. As for the probability of excessive absence, it varies across the observations. Filtering now just by **2**, we can say that the same conclusion applies.
+
+So, analyzing both groups together, the data shows that most individuals spend less than $240 on transportation, and that the probability of excessive absence varies across the observations.
+
+![Transportation Expense and Children](/tableau_BIDA/images/TranspChild12_probab.png)
+
+You can see the interactive graphic in [my Tableau Public profile](https://tabsoft.co/3lJZDJk).
